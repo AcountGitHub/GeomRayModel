@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geomModel_new", "geomModel_new\geomModel_new.csproj", "{AC052768-16D9-4BB7-AE40-B4B6285EBE97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC052768-16D9-4BB7-AE40-B4B6285EBE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC052768-16D9-4BB7-AE40-B4B6285EBE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC052768-16D9-4BB7-AE40-B4B6285EBE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC052768-16D9-4BB7-AE40-B4B6285EBE97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E163529D-2A3D-410B-BFE8-1982FE9283FF}
+	EndGlobalSection
+EndGlobal

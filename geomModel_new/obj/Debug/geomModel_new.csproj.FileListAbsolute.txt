@@ -1,0 +1,10 @@
+D:\myPr\geomModel_new\geomModel_new\bin\Debug\geomModel_new.exe.config
+D:\myPr\geomModel_new\geomModel_new\bin\Debug\geomModel_new.exe
+D:\myPr\geomModel_new\geomModel_new\bin\Debug\geomModel_new.pdb
+D:\myPr\geomModel_new\geomModel_new\obj\Debug\geomModel_new.csprojAssemblyReference.cache
+D:\myPr\geomModel_new\geomModel_new\obj\Debug\geomModel_new.Form1.resources
+D:\myPr\geomModel_new\geomModel_new\obj\Debug\geomModel_new.Properties.Resources.resources
+D:\myPr\geomModel_new\geomModel_new\obj\Debug\geomModel_new.csproj.GenerateResource.cache
+D:\myPr\geomModel_new\geomModel_new\obj\Debug\geomModel_new.csproj.CoreCompileInputs.cache
+D:\myPr\geomModel_new\geomModel_new\obj\Debug\geomModel_new.exe
+D:\myPr\geomModel_new\geomModel_new\obj\Debug\geomModel_new.pdb

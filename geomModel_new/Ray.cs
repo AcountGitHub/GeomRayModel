@@ -106,8 +106,8 @@ namespace geomModel_new
         public void Layer()
         {
             //if (I < 0) SeqI.Add(I + 1); else SeqI.Add(I);
-            double fib = 0;
-            double fie = 0;
+            //double fib = 0;
+            //double fie = 0;
             if (Xlast == 0 && I == iGas)
             {
                 C[I] += K[I] * (Hgas - H[I]);

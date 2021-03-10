@@ -17,3 +17,4 @@ D:\myPr\GeomRayModel\geomModel_new\obj\Debug\geomModel_new.csproj.GenerateResour
 D:\myPr\GeomRayModel\geomModel_new\obj\Debug\geomModel_new.csproj.CoreCompileInputs.cache
 D:\myPr\GeomRayModel\geomModel_new\obj\Debug\geomModel_new.exe
 D:\myPr\GeomRayModel\geomModel_new\obj\Debug\geomModel_new.pdb
+D:\myPr\GeomRayModel\geomModel_new\obj\Debug\geomModel_new.csprojAssemblyReference.cache

@@ -53,7 +53,7 @@ namespace geomModel_new
             Xrgas = 0; Yrgas = 0;                    //початкові значення координат центра кола, дуга якого проходить через ГАС
             dX = new double[R.Length];               //виділення пам'яті для масиву зміщень променя по осі Ox
             Nedkm0 = Nedkb0 = false;                 //початкові значення встановлюються в false
-            SeqI = new List<int>();               //виділення пам'яті для послідовності проходження водних шарів
+            SeqI = new List<int>();                  //виділення пам'яті для послідовності проходження водних шарів
         }  
 
         //статичний метод, який приймає значення профілю швидкості звуку, глибину ГАС та об'єкта і відстань між ними
@@ -109,10 +109,16 @@ namespace geomModel_new
             //double fib = 0;
             //double fie = 0;
             if (Xlast == 0 && I == iGas)
-            {
-                C[I] += K[I] * (Hgas - H[I]);
+            { 
+                double Hgas1 = Hgas;
+                if(Hgas!=0 && I!=K.Length-1 && Hgas == H[I + 1] && Angle<=Math.PI/2)
+                {
+                    Hgas1+=0.1;
+                    I++;
+                }
+                C[I] += K[I] * (Hgas1 - H[I]);
                 Rgas = R[I] = C[I] / (Math.Abs(K[I]) * Math.Sin(TetRad));
-                Yrgas = Yr[I] = C[I] / K[I] - Hgas;
+                Yrgas = Yr[I] = C[I] / K[I] - Hgas1;
                 Xrgas = Xr[I] = C[I] / (Math.Tan(TetRad) * K[I]);
                 SeqI.Add(I);
             }
